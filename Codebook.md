@@ -4,7 +4,7 @@ Run_Analysis.R
 Version 1.0
 --
 Patrick Flynn
-Coursera.Org
+
 Getting & Cleaning Data Course Project
 
 Original data/research can be found here:
@@ -26,41 +26,41 @@ These signals were used to estimate variables of the feature vector for each pat
 
 Newly Added Variables
 ---
-subjectID <- Integer between 1 and 30 indicating a unique research participant
-activity <- Activity participant was taking (WALKING
++ subjectID <- Integer between 1 and 30 indicating a unique research participant
++ activity <- Activity participant was taking (WALKING
 /WALKING_UPSTAIRS/WALKING_DOWNSTAIRS/SITTING/STANDING
 /LAYING)
 
 Previous Variables
 ---
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
++ tBodyAcc-XYZ
++ tGravityAcc-XYZ
++ tBodyAccJerk-XYZ
++ tBodyGyro-XYZ
++ tBodyGyroJerk-XYZ
++ tBodyAccMag
++ tGravityAccMag
++ tBodyAccJerkMag
++ tBodyGyroMag
++ tBodyGyroJerkMag
++ fBodyAcc-XYZ
++ fBodyAccJerk-XYZ
++ fBodyGyro-XYZ
++ fBodyAccMag
++ fBodyAccJerkMag
++ fBodyGyroMag
++ fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals and kept in the cleaned data are: 
-mean(): Mean value
-std(): Standard deviation
++mean(): Mean value
++std(): Standard deviation
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
-gravityMean
-tBodyAccMean
-tBodyAccJerkMean
-tBodyGyroMean
-tBodyGyroJerkMean
++ gravityMean
++ tBodyAccMean
++ tBodyAccJerkMean
++ tBodyGyroMean
++ tBodyGyroJerkMean
 
 Summary
 ---
