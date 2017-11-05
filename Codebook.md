@@ -7,8 +7,8 @@ Coursera.Org
 Getting & Cleaning Data Course Project
 ---
 Original data/research can be found here:
-(http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
-(https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+[Original Research](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+[Download Data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 ==================================================================
 
 Feature Selection (Copied - From original research)
@@ -62,6 +62,12 @@ tBodyGyroJerkMean
 For each independent research participant (indexed 1-30) and for each different activity they performed (6 in total, listed above), 
 66 different numeric measures were taken. Each participant repeated the activity several times. For each separate measure, a mean
 was calculated and this data is observable in the "cleaned" data.frame that the code outputs.
+
+###Video Demonstration of Research
+---
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=XOEN9W05_4A
+" target="_blank"><img src="http://img.youtube.com/vi/XOEN9W05_4A/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 
 
