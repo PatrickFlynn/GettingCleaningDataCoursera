@@ -1,15 +1,17 @@
 
 Run_Analysis.R
-Version 1.0
 ---
+Version 1.0
+--
 Patrick Flynn
 Coursera.Org
 Getting & Cleaning Data Course Project
----
+
 Original data/research can be found here:
+---
 [Original Research](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+
 [Download Data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
-==================================================================
 
 Feature Selection (Copied - From original research)
 ---
@@ -22,12 +24,14 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
+Newly Added Variables
 ---
 subjectID <- Integer between 1 and 30 indicating a unique research participant
 activity <- Activity participant was taking (WALKING
 /WALKING_UPSTAIRS/WALKING_DOWNSTAIRS/SITTING/STANDING
 /LAYING)
 
+Previous Variables
 ---
 tBodyAcc-XYZ
 tGravityAcc-XYZ
@@ -58,12 +62,13 @@ tBodyAccJerkMean
 tBodyGyroMean
 tBodyGyroJerkMean
 
-==Summaries Calculated===============================================
+Summary
+---
 For each independent research participant (indexed 1-30) and for each different activity they performed (6 in total, listed above), 
 66 different numeric measures were taken. Each participant repeated the activity several times. For each separate measure, a mean
 was calculated and this data is observable in the "cleaned" data.frame that the code outputs.
 
-###Video Demonstration of Research
+Video Demonstration of Research
 ---
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=XOEN9W05_4A
 " target="_blank"><img src="http://img.youtube.com/vi/XOEN9W05_4A/0.jpg" 
